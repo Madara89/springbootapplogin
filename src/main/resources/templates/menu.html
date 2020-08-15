@@ -13,10 +13,6 @@
 
     | &nbsp;
 
-    <a th:href="@{/admin}">Admin</a>
-
-    | &nbsp;
-
     <a th:if="${#request.userPrincipal != null}" th:href="@{/logout}">Logout</a>
 
 </div>
